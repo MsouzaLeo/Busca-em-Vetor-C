@@ -61,6 +61,7 @@ int buscaBin(int *vet, int e, int n)
     while (inicio <= fim)
     {
         meio = (inicio + fim) / 2;
+        printf("%d\n",vet[meio]);
         if (vet[meio] > e)
             fim = meio - 1; //se o valor q esta procurando for menor q o meio calculado, entao muda o final para meio-1 e procura na "primeira" parte do vetor
         else if (e > vet[meio])
