@@ -1,4 +1,4 @@
-A implementação realiza uma busca sequencial, uma busca sequencial para quando o arranjo está ordenado, e uma busca binária.
+A implementação realiza uma busca sequencial, uma busca sequencial para quando o arranjo está ordenado, e uma busca binária. Na busca binaria, a cada iteração, o valor meio do vetor é impresso até encontrar o valor desejado.
 
 A entrada é dada da seguinte forma:
 n x0 x1 x2 ... x(n-1) e c
